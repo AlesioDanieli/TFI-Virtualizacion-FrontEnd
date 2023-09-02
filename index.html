@@ -78,11 +78,11 @@
 
     <script>
         // Example URLs for fetching data
-        const url1 = 'http://localhost:3000/blog';
-        const url2 = 'http://localhost:3000/persona';
-        const url3 = 'http://localhost:3000/sobremi';
-        const url4 = 'http://localhost:3000/trabajo';
-        const url5 = 'http://localhost:3000/herramienta';
+        const url1 = '192.168.77.201:3000/blog';
+        const url2 = '192.168.77.201:3000/persona';
+        const url3 = '192.168.77.201:3000/sobremi';
+        const url4 = '192.168.77.201:3000/trabajo';
+        const url5 = '192.168.77.201:3000/herramienta';
 
         // Fetch requests
         const request1 = fetch(url1);
@@ -184,7 +184,7 @@
 
         // Function to fetch and display blog posts
         /*function fetchBlog() {
-            fetch('http://localhost:3000/blog', {mode: 'cors'})
+            fetch('192.168.77.201:3000/blog', {mode: 'cors'})
                 .then(response => response.json())
                 .then(data => {
                     const postsDiv = document.getElementById('blogs');
@@ -204,7 +204,7 @@
         }
 
         function fetchPersona() {
-            fetch('http://localhost:3000/persona', {mode: 'cors'})
+            fetch('192.168.77.201:3000/persona', {mode: 'cors'})
                 .then(response => response.json())
                 .then(data => {
                     const postsDiv = document.getElementById('posts');
